@@ -1,43 +1,11 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# I only want to track select files, so ignore everything, then selectively 
+# un-ignore certain extensions, then extend that un-ignoring to all subfolders.
 
-# Folder config file
-Desktop.ini
+# ignore everything
+*
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# keep Excel files
+!*.xlsx
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# keep Word files
+!*.docx
