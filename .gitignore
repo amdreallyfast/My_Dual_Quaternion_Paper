@@ -1,11 +1,6 @@
 # I only want to track select files, so ignore everything, then selectively 
 # un-ignore certain extensions, then extend that un-ignoring to all subfolders.
 
-# ignore everything
-*
-
-# keep Excel files
-!*.xlsx
-
-# keep Word files
-!*.docx
+# don't ignore anything (I tried to selectively un-ignore the pdf file, but 
+# apparently !*.pdf didn't un-ignore it, so I decided to let everything into
+# the repo
